@@ -6,6 +6,8 @@
             v-for="item in cards"
             :key="item"
             :item="item"
+            data-aos="fade-down"
+            data-aos-duration="2000"
         />
       </div>
     </div>

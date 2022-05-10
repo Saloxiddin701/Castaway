@@ -1,5 +1,5 @@
 <template>
-  <header :class="{ 'onScroll' : !view.topOfPage }">
+  <header :class="{ 'onScroll' : !view.topOfPage }" data-aos="fade-up" data-aos-duration="2000">
     <div class="container">
       <nav>
         <div class="branding"><img src="../assets/images/logo.png" alt=""></div>

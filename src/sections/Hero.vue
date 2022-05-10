@@ -1,7 +1,7 @@
 <template>
 	<header class="hero" id="home">
     <div class="container">
-      <div class="wrapper">
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/images/main.jpg" alt="" class="img">
         <div class="right">
           <h1 class="title">

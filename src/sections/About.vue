@@ -1,7 +1,7 @@
 <template>
 	<section class="about" id="about">
     <div class="container">
-      <div class="wrapper">
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="2000">
         <div class="left">
           <div class="icon"><i class="fas fa-arrow-right"></i></div>
           <h3>Meet your host</h3>
@@ -11,7 +11,7 @@
         </div>
         <img src="../assets/images/Frame.jpg" alt="">
       </div>
-      <contact-form/>
+      <contact-form data-aos="fade-up" data-aos-duration="2000"/>
     </div>
   </section>
 </template>
