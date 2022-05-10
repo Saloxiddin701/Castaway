@@ -1,4 +1,4 @@
-# lesson-6
+# Castaway
 
 ## Project setup
 ```
