@@ -5,6 +5,7 @@
 	<AboutSection />
 	<TestimonialsSection />
   <FooterSection/>
+  <PageLoader/>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import AboutSection from "./sections/About.vue"
 import TestimonialsSection from "./sections/Testimonials.vue"
 import FooterSection from "./sections/Footer.vue"
 import Navbar from "./components/navbar.vue"
+import PageLoader from "@/components/PageLoader";
 
 export default {
 	components: {
@@ -22,7 +24,8 @@ export default {
 		EpisodesSection,
 		AboutSection,
 		TestimonialsSection,
-		FooterSection
+		FooterSection,
+    PageLoader
 	}
 }
 </script>
@@ -30,7 +33,6 @@ export default {
 <style lang="scss">
 #app {
   background-color: #191919;
-  overflow: hidden;
 }
 
 * {
