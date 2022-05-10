@@ -1,11 +1,8 @@
 <template>
 	<section class="episode" id="episodes">
     <div class="container">
-      <div class="head">
-        <h1 class="title">Latest episodes</h1>
-        <button class="btn">View all episodes</button>
-      </div>
       <div class="box">
+        <Title/>
         <Card
           v-for="item in cards"
           :key="item.id"
@@ -17,10 +14,12 @@
 </template>
 
 <script>
+import Title from "@/components/title";
 import Card from "@/components/episodeCard";
 
 export default {
   components: {
+    Title,
     Card
   },
   data() {
@@ -69,30 +68,6 @@ export default {
 }
 .episode {
   padding: 100px 0;
-  .head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .title {
-      font-size: 64px;
-      letter-spacing: 2.88px;
-      line-height: 79.2px;
-      font-family: 'sans-400';
-      font-weight: 400;
-      color: #ffffff;
-    }
-    .btn {
-      padding: 12px 20px;
-      color: #fff;
-      background: #118da8;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      border-radius: 10px;
-      font-size: 17px;
-      font-weight: 400;
-    }
-  }
   .box {
     padding-top: 40px;
     display: flex;
