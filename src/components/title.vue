@@ -36,4 +36,16 @@ export default {
     font-weight: 400;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .head {
+    .title {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .btn {
+      padding: 5px 10px;
+    }
+  }
+}
 </style>
