@@ -228,5 +228,31 @@ header {
   .container {
     max-width: 425px;
   }
+  header {
+    nav {
+      .dropdown-nav {
+        height: 100vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 375px;
+  }
+  header {
+    nav {
+      .dropdown-nav {
+        height: 100vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 320px;
+  }
 }
 </style>

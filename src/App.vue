@@ -4,8 +4,8 @@
 	<EpisodesSection />
 	<AboutSection />
 	<TestimonialsSection />
-  <FooterSection/>
-  <PageLoader/>
+  	<FooterSection/>
+	<PageLoader/>
 </template>
 
 <script>
@@ -25,7 +25,7 @@ export default {
 		AboutSection,
 		TestimonialsSection,
 		FooterSection,
-    PageLoader
+		PageLoader
 	}
 }
 </script>

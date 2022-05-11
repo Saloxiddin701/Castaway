@@ -15,12 +15,16 @@ export default {
       isloaded: false
     }
   },
+  created() {
+    document.body.style.overflow = 'hidden'
+  },
   mounted() {
     document.onreadystatechange = () => {
       if (document.readyState == 'complete') {
         this.isloaded = true
       }
     }
+    document.body.style.overflow = 'auto'
   }
 }
 </script>
